@@ -1,6 +1,6 @@
 {
-    "name": "excel-to-coordinates/excel-to-coordinates",
-    "description": "Excel based address field to geo location ",
+    "name": "cirkovic/excel-to-coordinates",
+    "description": "Package for converting address to the geo location coordinates based on address provided in excel file",
     "type": "library",
     "require": {
         "php": "^7.4",
