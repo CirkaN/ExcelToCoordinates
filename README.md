@@ -5,18 +5,24 @@
 
     $excel_to_cordinates = new ExcelToCoordinates();
 ## Methods
-            ->setExcelPath(__DIR__ . "/../example/addresses.xlsx") // path to the excel file
+            ->setExcelPath(__DIR__ . "/../example/addresses.xlsx") // (required)  path to the excel file
             ->setAddressIterator('A') // (required) The address iterator, for better understanding please check the example excel file provided in /example
             ->setPostCodeIterator('B') // (required) The Post Code Iterator 
             ->setCountryIterator('C') // (required) The country Iterator
-            ->setGoogleApiCode('') //Google API Key
-            ->setStartRow(1) //row from where you want to start 
-            ->setEndRow(2) // row where converting will stop
+            ->setGoogleApiCode('') // (required) Google API Key
+            ->setStartRow(1) // (required) row from where you want to start 
+            ->setEndRow(2) // (required) row where converting will stop
+            ->loadData() // (required) main function which will return array of geo coordinates
 ## Installation
     `composer require cirkovic/excel-to-coordinates`
 ## Requirements
     * php 7.4
     * ext-json
+
+## Support
+Atleast for now package only supports XLSX file, for other formats please open issue or create PR with tests.
+
+
 ## Testing
 Test can be found in /tests.
 
