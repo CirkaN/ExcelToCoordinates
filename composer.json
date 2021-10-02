@@ -1,0 +1,42 @@
+{
+    "name": "excel-to-coordinates/excel-to-coordinates",
+    "description": "Excel based address field to geo location ",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "phpoffice/phpspreadsheet": "^1.18",
+        "guzzlehttp/guzzle": "^7.0",
+      "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "friendsofphp/php-cs-fixer": "^2.17",
+        "vimeo/psalm": "^4",
+        "symfony/var-dumper": "^5.3"
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm",
+        "test": "vendor/bin/phpunit --colors=always",
+        "test-coverage": "vendor/bin/phpunit --coverage-text",
+        "format": "vendor/bin/php-cs-fixer fix"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExcelToCoordinates\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ExcelToCoordinates\\Tests\\": "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikola Cirkovic",
+            "email": "cirkovic.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
