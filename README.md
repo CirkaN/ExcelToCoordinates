@@ -34,3 +34,4 @@ Everyone is welcome for contribution.
 - <a href="https://github.com/CirkaN">Cirkovic Nikola<a>
 - <a href="https://github.com/CirkaN/ExcelToCoordinates/graphs/contributors">All Contributors </a>
 ## Licence
+For terms please see the LICENSE*.TXT files at the root of this distribution.
