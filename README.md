@@ -1,4 +1,4 @@
-# Package
+# ExcelToCoordinates
 
 ## Usage
     Start by creating a new instance of ExcelToCoorindates class:
