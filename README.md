@@ -22,6 +22,8 @@
 ## Support
 Atleast for now package only supports XLSX file, for other formats please open issue or create PR with tests.
 
+CSV Coming soon.
+
 
 ## Testing
 Test can be found in /tests.
